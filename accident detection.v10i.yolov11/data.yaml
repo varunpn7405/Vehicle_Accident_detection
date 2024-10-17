@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['accident', 'car', 'fire']
+
+roboflow:
+  workspace: yolovideos
+  project: accident-detection-bcc2v
+  version: 10
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yolovideos/accident-detection-bcc2v/dataset/10
